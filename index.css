@@ -1,0 +1,32 @@
+#main_logo_div {
+  text-align: center;
+}
+
+#main_logo {
+  border-radius: 30px;
+  width: 120px;
+  cursor: pointer;
+  transition: box-shadow 0.2s, opacity 0.1s;
+}
+
+#main_logo:hover {
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#main_logo:active {
+  opacity: 0.7;
+  box-shadow: none;
+}
+
+#general_description_div {
+  background-color: dodgerblue;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 0.2px;
+  margin-top: 5px;
+  border-radius: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  cursor: default;
+}
